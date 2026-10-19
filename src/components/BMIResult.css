@@ -1,0 +1,58 @@
+/* Panel de resultado */
+.bmi-result {
+  border-radius: 14px;
+  padding: 20px;
+  text-align: center;
+  transition: background 0.25s ease, color 0.25s ease;
+}
+
+.bmi-result--empty {
+  background: #f8fafc;
+  border: 2px dashed var(--color-border);
+}
+
+.bmi-result__placeholder {
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
+
+.bmi-result__value {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.bmi-result__value strong {
+  display: block;
+  font-size: 2.4rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+.bmi-result__category {
+  margin-top: 6px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Colores por categoría */
+.bmi-result--bajo-peso {
+  background: #eff6ff;
+  color: #1d4ed8;
+}
+
+.bmi-result--normal {
+  background: #ecfdf5;
+  color: #047857;
+}
+
+.bmi-result--sobrepeso {
+  background: #fffbeb;
+  color: #b45309;
+}
+
+.bmi-result--obesidad {
+  background: #fef2f2;
+  color: #b91c1c;
+}

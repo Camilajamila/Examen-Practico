@@ -1,0 +1,11 @@
+# Dependencias
+node_modules/
+
+# Builds de producción
+dist/
+
+# Archivos de sistema y editores
+.DS_Store
+*.local
+.vscode/*
+!.vscode/extensions.json

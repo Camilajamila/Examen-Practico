@@ -1,0 +1,10 @@
+/* Tarjeta contenedora de la calculadora */
+.calculator {
+  background: var(--color-surface);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
